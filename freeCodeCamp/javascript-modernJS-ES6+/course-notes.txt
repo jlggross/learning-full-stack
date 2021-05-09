@@ -1,0 +1,3 @@
+Modern JavaScript ES6+ from freeCodeCamp
+
+This crash course is freely available in the link: https://www.freecodecamp.org/news/learn-modern-javascript/
