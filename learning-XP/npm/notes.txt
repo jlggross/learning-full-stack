@@ -1,0 +1,4 @@
+How-to-NPM: npm is the package manager for JavaScript. This workshop teaches lots
+of NPM options and functionality 
+
+https://github.com/workshopper/how-to-npm
