@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------
+Tools
+
+1. Run browser-sync to see the changes in the browser as you save your html file
+browser-sync start --server --files '.' --watch --directory
+
+2. Open the correct file in the browser and hit F12 to see the Console.
+
+-------------------------------------------------------------------------
+Async/Await
+
+Resources:
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+* https://stackoverflow.com/questions/38180080/when-to-use-promise-all
+
+Returns:
+* Async functions always return a promise. If the return value of an 
+async function is not explicitly a promise, it will be implicitly 
+wrapped in a promise.
+
+Synchronous vs. asynchronous:
+* A function using async and await will run asynchronously compared to 
+the point it was originally called.
+* However, if the function has async and no await, then it will run 
+synchronously compared to the point it was originally called. 
+* Inside a function block with async and await the code runs 
+synchronously
+
+Examples:
+* async-await-1.html : Here we see the correct use of async and await. The 
+main code runs synchronously and make a call to a function that has async/await.
+The main code continue executing and the function runs asynchronously. Inside
+the function the code runs synchronously.
+
+-------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">  
+  <title>Async & Await</title>
+</head>
+<body>
+  <script>
+    // Main and function running synchronously
+
+    function resolveAfter2Seconds() {
+      return new Promise(resolve => {
+        setTimeout(() => {
+          resolve('resolved after 2 seconds');
+        }, 2000);
+      });
+    }
+
+    function asyncCall() {
+      console.log('inside function');
+      const result = resolveAfter2Seconds();
+      console.log(result);
+      // expected output: "resolved"
+    }
+
+    console.log('before function call')
+    asyncCall();
+    console.log('after function call')
+  </script>  
+</body>
+</html>
