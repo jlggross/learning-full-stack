@@ -40,7 +40,6 @@
     // Start slow and fast at the same time, but the result of fast is 
     // processed after the result of slow, because of the await clause.
     // The fast function has to wait the slow to finish.
-
     // Errors have to be caught individually, on each promise
     async function concurrentStart() {
       console.log('==CONCURRENT START with await==');
