@@ -6,3 +6,5 @@ The files and text registries you will find here are a why I found useful to rem
 
 # Summary
 
+* freeCodeCamp: JavaScript Intreoductory Course, Modern JavaScript Crash Course
+* learningXP: async/await examples, npm workshop
