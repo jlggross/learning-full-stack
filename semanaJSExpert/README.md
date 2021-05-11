@@ -14,7 +14,7 @@ This was an event taught by Erick Wendel on Youtube from May 10th to 21st. You c
 
 # Class Summary
 
-- [Class 01: ECMAScript Modules]()
+- [Class 01: ECMAScript Modules](https://github.com/jlggross/full-stack/tree/main/semanaJSExpert#class-01-ecmascript-modules)
 
 # Class Details
 
