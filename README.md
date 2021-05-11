@@ -6,6 +6,6 @@ The files and text registries you will find here are a why I found useful to rem
 
 # Summary
 
-* freeCodeCamp: JavaScript Intreoductory Course, Modern JavaScript Crash Course
-* learningXP: async/await examples, npm workshop
-* semanaJSExpert: Workshop about JS technologies and techniques. CommonJs vs ESModules.
+* [freeCodeCamp](https://github.com/jlggross/full-stack/tree/main/freeCodeCamp): JavaScript Intreoductory Course, Modern JavaScript Crash Course
+* [learningXP](https://github.com/jlggross/full-stack/tree/main/learning-XP): async/await examples, npm workshop
+* [semanaJSExpert](https://github.com/jlggross/full-stack/tree/main/semanaJSExpert): Workshop about JS technologies and techniques. CommonJs vs ESModules.
